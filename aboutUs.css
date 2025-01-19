@@ -1,0 +1,50 @@
+.information h1,.information h3,.information p{
+    color: #0f141f;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: start;
+    padding-left: 15px;
+}
+.information h1{
+    padding-top: 15px;
+}
+.container {
+    background-color: white;
+    width: 85%;
+    height: 80vh;
+    border-radius: 18px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+.shoppingconti{
+    background-color: #9333ea;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    animation: fadeIn 2s ease;
+}
+
+.shoppingconti:hover{
+    background-color: #7928d1;
+    transform: translateY(-5px);
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
